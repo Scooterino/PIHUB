@@ -111,10 +111,7 @@ require 'Functions.php';
 
 
 
-            <?php tableDetails () ; 
-            
-
-            ?>
+            <?php tableDetails () ; ?>
 
 
             
