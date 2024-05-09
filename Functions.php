@@ -122,8 +122,8 @@
             
             echo '<tr>  
             <td>' .$tempType . '</td> 
-            <td>' .$tempInfo. '</td>
-            <td>$' .$tempPrice. '</td>
+            <td>' .$tempInfo . '</td>
+            <td>$'.$tempPrice. '</td>
             </tr>';           
 
         }
