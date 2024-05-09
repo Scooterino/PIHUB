@@ -96,19 +96,41 @@
 
         
 
-        
-       
-        for($i = 1; $i <= 5 ;$i++) {           
+        echo '<table class = "table" >
+
+
+            <tr >
+                <th  >
+                    Policy Type
+                </th>
+                <th>
+                    Policy Details
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
             
-            echo '<tr> 
-                <td>' . FindPolicy($i, "policyType") . '</td>
-                <td>' . FindPolicy($i, "policyInfo") . '</td>
-                <td>' . FindPolicy($i, "price") . '</td>
-            </tr>';
+        '; 
+       
+        for($i = 1; $i <= 5 ;$i++) {   
+            
+            $tempType = FindPolicy($i, "policyType");
+            $tempInfo = FindPolicy($i, "policyInfo");
+            $tempPrice = FindPolicy($i, "price");
 
             
+            echo '<tr>  
+            <td>' .$tempType . '</td> 
+            <td>' .$tempInfo. '</td>
+            <td>$' .$tempPrice. '</td>
+            </tr>';           
 
         }
+
+        echo '</table>';
+
+        
     }
 
   

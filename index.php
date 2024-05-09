@@ -68,7 +68,7 @@ require 'Functions.php';
 
 
 
-        <div class = "card" >
+        <header class = "card" >
 
             
             <h5 class="card-header">Insuratech Belize</h5> 
@@ -87,36 +87,43 @@ require 'Functions.php';
             </div>
 
             
-        </div>
+        </header>
 
         
 
         <br><br><br>
 
 
-        <table class = "table" >
-
-
-            <tr >
-                <th  >
-                    Policy Type
-                </th>
-                <th>
-                    Policy Details
-                </th>
-                <th>
-                    Price
-                </th>
-            </tr>
+        
 
 
 
             <?php tableDetails () ; ?>
 
 
-            
-        </table>
+          
 
+
+            <footer class = "card" >
+
+            
+            <h5 class="card-header">Managed and owned by <br> Insuratech Belize</h5> 
+            
+            <div class="card-body">
+                
+                <p class="card-text">                    
+                    © All rights Reserved  
+                                     
+                </p>
+
+                <img src="images/Insuratech.png" class = "img-thumbnail">
+
+                
+                
+            </div>
+
+            
+    </footer>
 
 
 
