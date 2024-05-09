@@ -46,7 +46,7 @@
         
             
             while ($row = $result->fetch_assoc()) {
-        echo $row[$returning]."<br>";
+        return $row[$returning];
         
         }
 
@@ -81,7 +81,7 @@
         
             
             while ($row = $result->fetch_assoc()) {
-        echo $row["total"]."<br>";
+        return $row["total"];
         
         }
 
@@ -113,18 +113,18 @@
             
         '; 
        
-        for($i = 1; $i <= 5 ;$i++) {   
+        for($i = 1; $i <= countRows() ;$i++) {   
             
             $tempType = FindPolicy($i, "policyType");
             $tempInfo = FindPolicy($i, "policyInfo");
             $tempPrice = FindPolicy($i, "price");
 
             
-            echo '<tr>  
-            <td>' .$tempType . '</td> 
-            <td>' .$tempInfo . '</td>
-            <td>$'.$tempPrice. '</td>
-            </tr>';           
+            echo '<tr>' ; 
+            echo '<td>' .$tempType . '</td> ';
+            echo '<td>' .$tempInfo . '</td> ' ; 
+            echo '<td>$'.$tempPrice. '</td> ' ;
+            echo '</tr>';           
 
         }
 

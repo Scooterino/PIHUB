@@ -76,8 +76,7 @@ require 'Functions.php';
             <div class="card-body">
                 <h5 class="card-title">PIHUB Database</h5>
                 <p class="card-text">                    
-                    Here are the policies offered by Insuratech Belize to it's customers.   
-                                     
+                    Here are the policies offered by Insuratech Belize to it's customers.                                     
                 </p>
 
                 <img src="images/PIHUB PIC.png" class = "img-thumbnail">
