@@ -41,4 +41,20 @@ img {
 
 }
 
+.nav-link {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(20, 93, 220) ;
+    color: rgb(190, 220, 20) ;
+}
+
+.nav-link active {
+    color: blue;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(190, 220, 20) ;
+}
+
 

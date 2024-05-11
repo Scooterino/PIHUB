@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<?php
+require 'Functions.php'; 
+?>
 
 <html>
     <head>
@@ -8,31 +11,22 @@
     <link rel = "stylesheet" href = "styling.css">
     
     <title>
-        Insuratech Belize
+        PIHUb Policy Info
     </title>
-
+    
     
 
-        
-    </head>
-
-    <body>
-
-
-
-        <header class = "card" >
-
-          <nav class="card text-center">
+    <nav class="card text-center">
             <div class="card-header">
               <ul class="nav nav-pills card-header-pills">
                 <li class="nav-item">
-                  <a class="nav-link active" href="main.html">Main Page</a>
+                  <a class="nav-link" href="main.html">Main Page</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="agents.php">Agents </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="Policies.php">Policies </a>
+                  <a class="nav-link active" href="Policies.php">Policies </a>
                 </li>                
               </ul>
             </div>
@@ -41,15 +35,34 @@
               
             </div>
         </nav>
+        
+    </head>
+
+    <header class = "card" >
 
             
             <h5 class="card-header">Insuratech Belize</h5> 
             <img src="images/Insuratech.png" class = "img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">PIHUB Database</h5>
+                <p class="card-text">                    
+                    Here are the policies offered by Insuratech Belize to it's customers.                                     
+                </p>
+
+                <img src="images/PIHUB PIC.png" class = "img-thumbnail">
+
+                
+                
+            </div>
 
             
-        </header>
+    </header>
 
-       
+    <body>
+
+
+
+        
 
         
 
@@ -57,18 +70,8 @@
 
 
 
+        <?php PtableDetails () ; ?>
 
-      <p class = "lead">
-
-                  
-          Welcome to PIHUB, the pioneering insuratech application tailored for Western Auto Insurance Company. 
-          At PIHUB, we're dedicated to providing you with a seamless experience, allowing you to effortlessly manage your 
-          policies and stay informed every step of the way. Our dynamic and atomic database manipulation ensures 
-          that you have easy access to relevant information about your policies, empowering you to stay up-to-date
-          with what's going on and make informed decisions. 
-          Say goodbye to complexity and hello to clarity with PIHUB, your go-to platform for insurance management.
-
-      </p>
 
           
 
