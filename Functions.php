@@ -130,7 +130,7 @@
 
             <tr >
                 <th  >
-                    Agent Name Type
+                    Agent Name
                 </th>
                 <th>
                     Agent Email
